@@ -7,7 +7,7 @@ const NavigationBar = () => {
       {/* -----------logo------------ */}
       <Image src="/assets/logo.png" alt="logo" width={100} height={100} />
       {/* -----------logo end--------- */}
-      {/* ------------linkes ------------ */}
+      {/* ------------linkes ----------- */}
       <ul className="flex text-xl gap-5 h-[50px] items-center">
         <li className="bg-slate-400 px-5 py-1 rounded-lg hover:bg-slate-700 cursor-pointer">
           Home

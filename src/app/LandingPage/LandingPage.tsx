@@ -1,3 +1,4 @@
+import MainSection from "@/components/MainSection/MainSection";
 import NavigationBar from "@/components/NavigationBar/NavigationBar";
 import Image from "next/image";
 import React from "react";
@@ -17,6 +18,10 @@ const LandingPage = () => {
         {/* -------------Navigation Bar --------- */}
         <NavigationBar />
         {/* -------------Navigation Bar End--------- */}
+
+        <div className="text-white flex justify-evenly">
+          <MainSection />
+        </div>
       </div>
       {/* --------------Main Division ------------- */}
     </>

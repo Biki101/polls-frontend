@@ -2,11 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-}
+/* ------fonts---- */
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Noto+Sans+Nag+Mundari&display=swap");
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Bruno Ace SC", cursive;
+  font-family: "Noto Sans Nag Mundari", sans-serif;
 }

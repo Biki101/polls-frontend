@@ -1,4 +1,4 @@
-import MainSection from "@/components/MainSection/MainSection";
+import HeroSection from "@/components/MainSection/HeroSection";
 import NavigationBar from "@/components/NavigationBar/NavigationBar";
 import Image from "next/image";
 import React from "react";
@@ -20,7 +20,7 @@ const LandingPage = () => {
         {/* -------------Navigation Bar End--------- */}
 
         <div className="text-white flex justify-evenly">
-          <MainSection />
+          <HeroSection />
         </div>
       </div>
       {/* --------------Main Division ------------- */}

@@ -2,7 +2,7 @@ import React from "react";
 import OurAim from "../OurAim/OurAim";
 import SignInSignup from "../SignInSignUp/SignInSignup";
 
-const MainSection = () => {
+const HeroSection = () => {
   return (
     <div className="flex flex-col w-full justify-center gap-20 mt-10 items-center">
       <OurAim />
@@ -11,4 +11,4 @@ const MainSection = () => {
   );
 };
 
-export default MainSection;
+export default HeroSection;

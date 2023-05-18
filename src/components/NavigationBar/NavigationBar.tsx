@@ -10,7 +10,7 @@ const NavigationBar = () => {
         alt="logo"
         width={100}
         height={120}
-        className="border-b-2 rounded-full border-green-600 w-[100px] h-[100px] p-2"
+        className="border-b-2 rounded-full border-yellow-600 w-[100px] h-[100px] p-2"
       />
       {/* -----------logo end--------- */}
       {/* ------------linkes ----------- */}

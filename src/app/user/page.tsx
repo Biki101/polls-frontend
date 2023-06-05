@@ -7,6 +7,13 @@ import TopPolls from "./TopPolls/TopPolls";
 const UserPage = () => {
   return (
     <div className="w-[1500px] m-auto">
+      <Image
+        src="/assets/landingpage1.jpg"
+        alt="Landing page Cover"
+        className="w-[100vw] h-[100vh] absolute left-0 z-[-1]"
+        width={2400}
+        height={1200}
+      />
       <div className="h-[100vh] m-auto   p-5 flex ">
         {/* -------- Background Image---------- */}
 

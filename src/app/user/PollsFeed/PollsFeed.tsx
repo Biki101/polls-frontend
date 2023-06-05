@@ -12,9 +12,9 @@ const PollsFeed = () => {
           name=""
           id=""
           placeholder="Poll Description..."
-          className="bg-gray-100 outline-none p-5 h-100px rounded-xl"
+          className="bg-gray-100 outline-none p-5 h-[100px] rounded-xl"
         ></textarea>
-        <span className="flex items-center gap-3 text-2xl self-end">
+        <span className="flex items-center gap-3 text-2xl self-end text-white">
           <BsImages />
           <MdLocationPin />
           <BiPoll />

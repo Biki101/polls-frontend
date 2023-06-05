@@ -1,14 +1,23 @@
 import React, { useState } from "react";
 import { BsFacebook, BsTwitter } from "react-icons/bs";
 import { AiFillInstagram } from "react-icons/ai";
+import { useRouter } from "next/navigation";
 
 const SignInSignup = () => {
   const [userName, setUserName] = useState("");
   const [password, setPassword] = useState("");
+  const router = useRouter();
+
+  // ------ Event handles -----------
+  const handleLogin = () => {
+    router.push("/user");
+  };
+  // ------ Event handles End -----------
+
   return (
     <>
       {/* ---------------login form------------ */}
-      <form className="border-yellow-500 border-[1px] p-5 flex flex-col gap-3 rounded-md">
+      <form className="border-yellow-500 border-[1px] p-5 flex flex-col gap-5 rounded-md w-[500px]">
         <span>Welcome to Polls</span>
         {/* ----------------Username ------------- */}
         <input
@@ -39,6 +48,7 @@ const SignInSignup = () => {
         <button
           type="submit"
           className="w-full text-center text-sm py-1 bg-green-600"
+          onClick={handleLogin}
         >
           Log In
         </button>

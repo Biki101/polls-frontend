@@ -1,7 +1,8 @@
 import HeroSection from "@/components/MainSection/HeroSection";
 import NavigationBar from "@/components/NavigationBar/NavigationBar";
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
+import Services from "../Services/Services";
 
 const LandingPage = () => {
   return (

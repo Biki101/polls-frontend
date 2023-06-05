@@ -5,6 +5,11 @@
 /* ------fonts---- */
 @import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Noto+Sans+Nag+Mundari&display=swap");
 
+:root {
+  --primary-color: #334155;
+  --secondary-color: #16a34a;
+}
+
 body {
   margin: 0;
   padding: 0;

@@ -6,7 +6,7 @@ const NavigationBar = () => {
     <div className="text-white flex justify-between pt-10 items-center">
       {/* -----------logo------------ */}
       <Image
-        src="/assets/logo.png"
+        src="/assets/earth.png"
         alt="logo"
         width={100}
         height={120}
